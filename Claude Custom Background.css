@@ -1,0 +1,260 @@
+:root {
+    --fondo-img: url("https://w.wallhaven.cc/full/yj/wallhaven-yjyp6l.jpg");
+
+    --foto-perfil: url("https://i.imgur.com/rNG4Pql.png");
+}
+
+html,
+body {
+    background-image: var(--fondo-img) !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+main,
+main.dframe-content,
+.dframe-root,
+.dframe-pane,
+.dframe-content-inner,
+[data-page-bg] {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+header.sticky,
+header.dframe-header,
+.dframe-header,
+[class*="dframe-header"] {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+.from-bg-100,
+.via-bg-100 {
+    --tw-gradient-from: transparent !important;
+    --tw-gradient-stops: transparent !important;
+}
+
+header + div[class*="from-bg"],
+header ~ div[class*="gradient"],
+.from-bg-100.via-bg-100 {
+    background: transparent !important;
+    opacity: 0 !important;
+}
+
+aside.dframe-sidebar {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+.dframe-sidebar-body {
+    background: rgba(0, 0, 0, 0.45) !important;
+    background-image: none !important;
+    backdrop-filter: blur(6px) !important;
+    -webkit-backdrop-filter: blur(6px) !important;
+    border-right: 0.5px solid rgba(255,255,255,0.15) !important;
+}
+
+.df-titlebar:not(.dframe-sidebar-body *) {
+    background: rgba(0, 0, 0, 0.45) !important;
+    background-image: none !important;
+    backdrop-filter: blur(6px) !important;
+    -webkit-backdrop-filter: blur(6px) !important;
+    border-right: 0.5px solid rgba(255,255,255,0.15) !important;
+}
+
+.df-bottom-tray,
+.df-footer-row {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+[data-cds="ChatComposer"] > div.rounded-composer,
+[data-cds="ChatComposer"] > div.bg-surface-3 {
+    background: rgba(0, 0, 0, 0.45) !important;
+    backdrop-filter: blur(6px) !important;
+    -webkit-backdrop-filter: blur(6px) !important;
+    border-radius: 18px !important;
+    border: 0.5px solid rgba(255,255,255,0.15) !important;
+    overflow: hidden !important;
+    box-shadow: none !important;
+}
+
+:not(html):not(body):has([data-cds="ChatComposer"]),
+[data-cds="ChatComposerDock"],
+[data-cds-dock-group],
+[data-cds-dock-masked],
+[data-cds-dock-host-fade],
+[data-chat-input-container],
+[data-composer-card-holder] {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    -webkit-mask-image: none !important;
+    mask-image: none !important;
+}
+
+.pointer-events-none[class*="bg-gradient"],
+.pointer-events-none[class*="bg-linear"],
+.pointer-events-none[class*="gradient"] {
+    background: none !important;
+    background-image: none !important;
+}
+
+div.overflow-clip.-mx-2.-mt-2,
+div.overflow-clip.-mx-2.-mt-2 *,
+[data-cds="ChatComposer"],
+[data-cds="ChatComposer"] * {
+    box-shadow: none !important;
+    filter: none !important;
+}
+
+div.overflow-clip.-mx-2.-mt-2 .pointer-events-none {
+    background: none !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+:not(html):not(body):has([data-cds="ChatComposer"])::before,
+:not(html):not(body):has([data-cds="ChatComposer"])::after,
+[data-cds="ChatComposer"]::before,
+[data-cds="ChatComposer"]::after,
+div.overflow-clip.-mx-2.-mt-2::before,
+div.overflow-clip.-mx-2.-mt-2::after {
+    background: none !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    filter: none !important;
+}
+
+[role="menu"],
+[role="dialog"] {
+    background: rgba(0, 0, 0, 0.45) !important;
+    background-image: none !important;
+    backdrop-filter: blur(6px) !important;
+    -webkit-backdrop-filter: blur(6px) !important;
+}
+
+[role="dialog"] > nav,
+[role="dialog"] > div[class*="bg-surface-2"] {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+[data-cds-dock-group],
+[data-cds-dock-masked],
+[class*="bg-page"] {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+[class*="from-page"],
+[class*="via-page"],
+[class*="to-page"],
+[class*="from-surface"],
+[class*="via-surface"] {
+    --tw-gradient-from: transparent !important;
+    --tw-gradient-via: transparent !important;
+    --tw-gradient-to: transparent !important;
+    --tw-gradient-stops: transparent !important;
+}
+
+.dframe-header::before,
+.dframe-header::after,
+.dframe-pane::before,
+.dframe-pane::after,
+[data-cds="ChatComposerDock"]::before,
+[data-cds="ChatComposerDock"]::after,
+[data-cds-dock-host-fade]::before,
+[data-cds-dock-host-fade]::after,
+[data-chat-input-container]::before,
+[data-chat-input-container]::after,
+[data-composer-card-holder]::before,
+[data-composer-card-holder]::after {
+    background: none !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+.df-header-backdrop,
+[class*="page-fade"],
+[data-testid="transcript-bottom-fade"],
+[data-testid="transcript-top-fade"],
+div.pointer-events-none.absolute.inset-0.bg-surface-1[class*="background-image"] {
+    display: none !important;
+}
+
+.df-header-peek-cover {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+[data-disclaimer="true"] {
+    display: none !important;
+}
+
+.bg-border-300 {
+    background-color: white !important;
+}
+
+.group:hover .group-hover\:bg-accent-900,
+[class*="group-hover:bg-accent"] {
+    background-color: white !important;
+}
+
+:where(button[data-testid="user-menu-button"] [class*="rounded-full"]),
+:where(button[data-testid="user-menu-button"] :has(> img[class*="rounded-full"])) {
+    position: relative;
+}
+
+button[data-testid="user-menu-button"] [class*="rounded-full"]:not(:has([class*="rounded-full"])):not(img)::after,
+button[data-testid="user-menu-button"] :has(> img[class*="rounded-full"])::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 9999px;
+    background-image: var(--foto-perfil);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+
+div.overflow-y-auto div.bg-bg-100,
+div[data-autoscroll-container] ~ div .bg-bg-100 {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+.font-claude-response {
+    background: rgba(0, 0, 0, 0.60) !important;
+    border-radius: 14px !important;
+    padding: 12px 16px !important;
+    backdrop-filter: blur(6px) !important;
+    -webkit-backdrop-filter: blur(6px) !important;
+    margin-bottom: 10px !important;
+}
+
+.font-claude-response-body,
+.font-claude-response-body p,
+.font-claude-response-body li,
+.font-claude-response-body span,
+.font-claude-response-body strong,
+.font-claude-response-body em,
+.font-claude-response-body h1,
+.font-claude-response-body h2,
+.font-claude-response-body h3,
+.font-claude-response-body code {
+    color: #ffffff !important;
+    text-shadow: 1px 1px 4px #000, -1px -1px 4px #000 !important;
+}
