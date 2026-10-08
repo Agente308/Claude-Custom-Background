@@ -13,3 +13,13 @@ Y por ultimo si necesitas cambiar la imagen de fondo o la de foto de perfil solo
   <img width="1920" height="959" alt="imagen2"
        src="https://github.com/user-attachments/assets/a6caa9d6-2dd6-4cc2-bbe7-f6bf2bcf8fd3" />
 </p>
+
+<p align="center">
+  <img width="290" height="954" alt="image"
+       src="https://github.com/user-attachments/assets/24cbac6f-af56-4ae3-8815-4fec13571f48" />
+</p>
+
+<p align="center">
+  <img width="1025" height="797" alt="imagen"
+       src="https://github.com/user-attachments/assets/d5e9acc1-63ef-47e5-8176-1f8b2d807e94" />
+</p>
